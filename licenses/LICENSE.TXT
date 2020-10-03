@@ -1,0 +1,160 @@
+﻿ 
+# License
+ 
+"kasini3000" or "kaiiit's Hotel" is a software work developed by [power shell missionary].The software copyright is hereby declared.
+ 
+kasini3000 official technical support group QQ group: 700816263
+ 
+It is forbidden for hackers to use this project code and do evil with this project code!
+ 
+It is forbidden to use project code for hackers!
+ 
+As a software engineer, we must abide by certain ethical guidelines.When I learned that my code was being used for what I personally considered to be evil, I felt obligated to prevent this from happening.
+ 
+Do not use code to do evil!
+ 
+ 
+Q: do you provide the function of changing project name and source code path?
+ 
+A:
+ 
+Yes.Pay to provide change project name, source code path.Welcome cloud manufacturers, OEM manufacturers, ODM manufacturers, contact me.
+ 
+ 
+Q: after others modify the source code, can the source be closed?
+ 
+A:
+ 
+No.Only cloud manufacturers, OEM manufacturers and ODM manufacturers that have paid can close the source with my permission.
+ 
+Q: After someone else modifies the source code, can it be closed source?
+ 
+A: Cloud manufacturers, oem manufacturers, odm manufacturers that only allow money to be paid, can be closed after my permission.
+ 
+Q: do I need a signed author?Project URL?License directory / file?
+ 
+A:
+ 
+All of them.Only cloud manufacturers, OEM manufacturers and ODM manufacturers that have paid can remove the license with my permission.
+ 
+Q: Do you need a signed author? Project url? License directory/file?
+ 
+A: All are. Cloud manufacturers, oem manufacturers, odm manufacturers that only allow money to be paid, can remove the license file after my permission.
+ 
+ 
+ 
+##About the software charge, and survival.(the following is the draft of software survival designed for me. Welcome to make bricks, so that I can change and improve it)
+ 
+Q: what software is this?
+ 
+A:
+ 
+This is fee sharing software.I call it reward software.It means to reward me with three melons and two dates.
+ 
+This software intends to accept donations, but the donation code and donation method have not been worked out.
+ 
+kasini3000 is Paid application.
+ 
+ 
+Q: how do you charge for software?
+ 
+A:
+ 
+Similar to nginx and nginx plus,
+ 
+The main functions of the software, the main modules = open source free.
+ 
+Compatible with the old system, compatible with the old PS version, part of the script, module charge.
+ 
+Functions other than main functions, charging.
+ 
+ 
+Q: how to charge the company?
+ 
+A:
+ 
+company:
+ 
+one kasini3000 core +
+ 
+<200agent:free use
+ 
+<500agent: 10Dollars /year.
+ 
+<1000agent: 20Dollars /year.
+ 
+Non-profit organization and edu:
+ 
+free use.
+ 
+ 
+ 
+ 
+Q: how to charge cloud service providers?
+ 
+A:
+ 
+Cloud computing company:
+ 
+all kasini3000 core + all agent:1000＄ --- 20000＄ /year
+ 
+Donate codes to the project and get a discounted price.
+ 
+ 
+Q: how to charge the project integrator (OEM / ODM)?
+ 
+A:
+ 
+Contact with group leader, QQ group: 700816263
+ 
+ 
+Q: how to charge for technical support?
+ 
+A:
+ 
+Purchase QQ group technical support point card.It&apos;s 50 yuan for half an hour at a time.
+ 
+Contact with group leader, QQ group: 183173532
+ 
+ 
+ 
+##About PR, patch, source code, etc.
+ 
+If you submit the code to help improve the software, it will be regarded as "donating the source code to me free of charge". I have the right to close the source code you donated.
+ 
+If you submit the code, it will be considered a donation code to me.
+ 
+All code is private to me, I have the right to hold your code closed source.
+ 
+ 
+ 
+##This software license debate.
+ 
+![image](https://github.com/chuanjiao10/kasini3000/blob/master/licenses/license01.jpg)
+ 
+![image](https://github.com/chuanjiao10/kasini3000/blob/master/licenses/license02.png)
+ 
+*I don&apos;t understand MIT, Apache, GPL. It&apos;s a big head.
+ 
+*The license of this software is different from MIT, Apache and GPL.
+ 
+*According to the first requirement of this software, you can&apos;t hack or do evil.MIT, Apache, GPL, No.
+ 
+*This software charges all cloud manufacturers with special terms.MIT, Apache, GPL, neither.
+ 
+ 
+A certain official said: "you did not release a line of code, but first released a strict custom license.Are you crazy? "
+ 
+My answer is:
+ 
+1 It&apos;s not surprising that you have to agree to the agreement before you give you something.Most software requires agreement prior to installation.
+ 
+2 It&apos;s no surprise that software protocols are strict, even harsh.For example: the protocol of face changing software "Zao".
+ 
+3 There are a lot of harsh custom licenses, which are very common, but you have to accept them.For example, "intermediary rental contract.".
+ 
+4 My agreement is neither strict nor strict.
+ 
+ 
+ 
+ 

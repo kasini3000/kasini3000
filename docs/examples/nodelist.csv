@@ -1,0 +1,8 @@
+﻿ip,端口,用户名,当前密码,旧密码,被控机os类型,被控机显示名,被控机分组名,密码写入节点时间戳,被控机uuid
+192.168.1.60,22,root,aaaa1111,,,srv1,zu2,,
+192.168.2.16,22,root,aaaa1111,,,ubuntu1604,zu1,,
+192.168.3.18,22,root,aaaa1111,,,ubuntu1804,zu1,,c3afb273-8ab4-4ec2-8716-12a05fac1bfe
+192.168.4.9,22,root,aaaa1111,,,debian9,zu3,,
+192.168.4.10,22,administrator@vsphere.local,aaaa1111,,,Vcenter,vmware_esxi,,
+192.168.4.11,22,root,aaaa1111,,,Vmware_物理机1,vmware_esxi,,
+192.168.5.9,5985,userabc,aaaabbbb,,,win3.5周年,组4,,465350e6-d2af-492a-a2ac-ddbfb7d3fa65
