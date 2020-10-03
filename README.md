@@ -59,7 +59,7 @@ The slogan of "kaisini3000" is:
 
 ## edit node table of ip,port,user,pwd on master.
 
-copy [this project/docs/examples\nodelist.csv]
+copy [this project/docs/examples/nodelist.csv]
 to win: c:\ProgramData\kasini3000\nodelist.csv
 to linux: /etc/kasini3000/nodelist.csv
 
@@ -67,6 +67,8 @@ for linux node:
 1 Create ssh-key-file on master.
 2 Manual push ssh-key-file to node.
 see manual https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机?sort_id=2655465
+
+## NOTE: all command manual in this file [/docs/kasini3000_manual.xlsx]
 
 ## 1 krun.ps1
 
@@ -145,10 +147,10 @@ hqpm根据端口_获取进程pid_win_linux通用.ps1 # get pid by open port
 
 ## win node：need enable winrm
 
-* Win node machine supports these versions(32-bit os is not supported):
+* Win node machine supports these versions(32-bit os is supported):
 win8.1, win10, win2012r2, win2016, win1019, win7 (need to install ps5.1), win2008r2 (need to install ps5.1)
 
-* Automatic/Manual Change the password of win node machines in batches.
+* Automatic/Manual Change the password for ALL win node machines in batches.
 
 That is [Regularly automatically update the password of the node machine].
 
@@ -158,7 +160,7 @@ That is [Regularly automatically update the password of the node machine].
 
 ## linux node：
 
-Linux node computers support these distributions:
+Linux node computers support these distributions(32-bit os is supported):
 
 centos7, centos8, ubuntu1404, ubuntu1604, ubuntu1804, ubuntu2004, debian8, debian9, debian10, alpine3.8---3.11, Raspberry Pi linux, Raspberry Pi win10-iot. **Centos6 is not supported**
 
@@ -184,9 +186,14 @@ baoj中英文声音报警.ps1 '报告司令，卡死你3000，工作正常！hap
 * Change Windows Terminal Background Image. Support gif animation.
 
 You can store the memory map in the relevant directory yourself!
-Its main function is: when a script or command error occurs, wrtie-error, at the same time, it calls related scripts and changes the Windows Terminal background image to achieve the purpose of eye-catching reminders.
+
+Its main function is:
+
+when a script or command error occurs, wrtie-error, at the same time, it calls related scripts and changes the Windows Terminal background image to achieve the purpose of eye-catching reminders.
 
 * playing wav, mp3, and video.
+
+* windows gui to view returned result (in sqlite database)
 
 ------
 
@@ -220,7 +227,7 @@ $global:abc = 1
 
 * has for,foreach.no need JINJIA2
 
-* All codes are written into a single script and no need transfer script file. You can  from nodea ---> nodeb ---> nodec.
+* All codes are written into a single script and no need transfer script file. You can  from node1 ---> node2 ---> node3.
 This is useful for penetrating bastion machines and managing hardware from a specific server.
 
 * Write 3 layers of loops, such as foreach set while, plus exit condition judgment. Yaml is laborious to express, especially when using rules.
@@ -241,7 +248,14 @@ This is useful for penetrating bastion machines and managing hardware from a spe
 
 ## call from jenkins,zabbix easy.
 
+Q: Why is kasini3000 number one in the world?
+A:
 
+* Control the invincible hand of the windows node.
+
+* Control linux node 100% compatible with shell script.
+
+* Remote delivery of objects.
 
 ------
 
@@ -256,9 +270,10 @@ This is useful for penetrating bastion machines and managing hardware from a spe
 ## download:
 
 git  clone  https://gitee.com/chuanjiao10/kasini3000.git
+
 git  clone  git@gitee.com:chuanjiao10/kasini3000.git
 
-## install
+## install kasini3000 master
 
 linux:
 https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机
