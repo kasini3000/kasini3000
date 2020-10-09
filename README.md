@@ -29,7 +29,7 @@ Any old linux script can be executed from the master to the node by [the source 
 
 Project name: "kaiiit's Hotel" (tentative name)
 
-Project name alias: "ps1 Dragon Sword"
+Project name alias: "ps1 Dragon Long knife"
 
 Project name development : kasini3000
 
@@ -43,15 +43,46 @@ The slogan of "kaisini3000" is:
 
 # status: Move to github, English translation. little by little.
 
-# Want:
+----
 
-* Technical support ---> qq group, chargeable. Please provide detailed questions, source code, and screenshots. Thank you.
+# Feedback (Support Chinese and English):
 
-* Dedication code ---> Go to gitee.com to submit the code.
+## Technical support ---> Tencent qq group, chargeable. Please provide detailed questions, source code, and screenshots. Thank you.
 
-* Submit a bug ---> Go to issues in gitee.com and submit a bug.
+qq international english pc:
+https://dldir1.qq.com/qqfile/QQIntl/QQi_PC/QQIntl2.11.exe
 
-* Submit new functional requirements ---> Go to issues in gitee.com and submit new functional requirements.
+## Dedication code ---> Go to gitee.com to submit the code.
+
+## Submit a bug ---> Go to issues in gitee.com and submit a bug.
+
+## Submit new functional requirements ---> Go to issues in gitee.com and submit new functional requirements.
+
+# Submit LABEL
+
+* bug
+
+* 问题 or Question
+
+* 新需求 or Enhancement
+
+* 翻译成英文 or Translation into English demand
+
+# Submit Template：
+
+* mast open verbose by 【c:\ProgramData\kasini3000\v-kai开启详细信息输出.ps1】
+
+* Steps to reproduce
+
+* Expected behavior
+
+* Actual behavior
+
+## Environment data
+
+* master os version.powershell version on master.
+
+* node os version.powershell version on node.
 
 ------
 
@@ -60,12 +91,17 @@ The slogan of "kaisini3000" is:
 ## edit node table of ip,port,user,pwd on master.
 
 copy [this project/docs/examples/nodelist.csv]
+
 to win: c:\ProgramData\kasini3000\nodelist.csv
+
 to linux: /etc/kasini3000/nodelist.csv
 
 for linux node:
+
 1 Create ssh-key-file on master.
+
 2 Manual push ssh-key-file to node.
+
 see manual https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机?sort_id=2655465
 
 ## NOTE: all command manual in this file [/docs/kasini3000_manual.xlsx]
@@ -275,19 +311,45 @@ git  clone  git@gitee.com:chuanjiao10/kasini3000.git
 
 ## install kasini3000 master
 
-linux:
+linux master:
 https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机
 
-win:
+
+win master:
 https://gitee.com/chuanjiao10/kasini3000/wikis/安装win版卡死你3000主控机
 
-## one key install powershell agent  https://gitee.com/chuanjiao10/kasini3000_agent_linux
 
-## Q&A https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000脚本编写要求和常见问题
+linux node:
+https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000被控机?sort_id=2951718
 
-## Script example https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000脚本例子
+win node:
+https://gitee.com/chuanjiao10/kasini3000/wikis/安装win版卡死你3000被控机?sort_id=2951719
 
-## jenkins example  https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000的jenkins例子
+
+
+## one key install powershell agent
+
+https://gitee.com/chuanjiao10/kasini3000_agent_linux
+
+
+
+## Q&A
+
+https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000脚本编写要求和常见问题
+
+
+
+## Script example
+
+https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000脚本例子
+
+
+
+## jenkins example
+
+https://gitee.com/chuanjiao10/kasini3000/wikis/卡死你3000的jenkins例子
+
+
 
 ## Use [self-built CA] and [self-built certificate] for winrm   《Four levels of winrm security》
 
