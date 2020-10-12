@@ -43,22 +43,25 @@ The slogan of "kaisini3000" is:
 
 # status: Move to github, English translation. little by little.
 
+ ![卡死你3000](kasini3000el.jpg)
+
+
 ----
 
 # Feedback (Support Chinese and English):
 
-## Technical support ---> Tencent qq group, chargeable. Please provide detailed questions, source code, and screenshots. Thank you.
+### Technical support ---> Tencent qq group, chargeable. Please provide detailed questions, source code, and screenshots. Thank you.
 
 qq international english pc:
 https://dldir1.qq.com/qqfile/QQIntl/QQi_PC/QQIntl2.11.exe
 
-## Dedication code ---> Go to gitee.com to submit the code.
+### Dedication code ---> Go to gitee.com to submit the code.
 
-## Submit a bug ---> Go to issues in gitee.com and submit a bug.
+### Submit a bug ---> Go to issues in gitee.com and submit a bug.
 
-## Submit new functional requirements ---> Go to issues in gitee.com and submit new functional requirements.
+### Submit new functional requirements ---> Go to issues in gitee.com and submit new functional requirements.
 
-# Submit LABEL
+### Submit LABEL
 
 * bug
 
@@ -68,7 +71,7 @@ https://dldir1.qq.com/qqfile/QQIntl/QQi_PC/QQIntl2.11.exe
 
 * 翻译成英文 or Translation into English demand
 
-# Submit Template：
+### Submit Template：
 
 * mast open verbose by 【c:\ProgramData\kasini3000\v-kai开启详细信息输出.ps1】
 
@@ -78,7 +81,7 @@ https://dldir1.qq.com/qqfile/QQIntl/QQi_PC/QQIntl2.11.exe
 
 * Actual behavior
 
-## Environment data
+### Environment data
 
 * master os version.powershell version on master.
 
@@ -104,7 +107,12 @@ for linux node:
 
 see manual https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机?sort_id=2655465
 
-## NOTE: all command manual in this file [/docs/kasini3000_manual.xlsx]
+## NOTE:
+
+all command manual in this file [/docs/kasini3000_manual.xlsx]
+
+set set Language to english [set_Language_english.ps1]
+
 
 ## 1 krun.ps1
 
@@ -221,6 +229,8 @@ baoj中英文声音报警.ps1 '报告司令，卡死你3000，工作正常！hap
 
 * Change Windows Terminal Background Image. Support gif animation.
 
+ ![卡死你3000](效果图.jpg)
+
 You can store the memory map in the relevant directory yourself!
 
 Its main function is:
@@ -309,7 +319,7 @@ git  clone  https://gitee.com/chuanjiao10/kasini3000.git
 
 git  clone  git@gitee.com:chuanjiao10/kasini3000.git
 
-## install kasini3000 master
+## install kaiiit's Hotel
 
 linux master:
 https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死你3000主控机
