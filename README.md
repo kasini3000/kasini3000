@@ -39,12 +39,19 @@ code mirror: https://github.com/kasini3000/kasini3000
 
 The slogan of "kaisini3000" is:
 
-"Don't learn yaml keywords, and many modules. kasini3000 to make win, linux, command line great again"
+"[the Keyboard Space Monster] on .yaml file let you cried.Don't learn yaml keywords, and many modules. kasini3000 to make win, linux, command line great again"
 
 # status: Move to github, English translation. little by little.
 
  ![卡死你3000](kasini3000el.jpg)
 
+Set Language to english [set_Language_english.ps1]
+
+# download:
+
+git clone https://gitee.com/chuanjiao10/kasini3000.git
+
+git clone git@gitee.com:chuanjiao10/kasini3000.git
 
 ----
 
@@ -110,8 +117,6 @@ see manual https://gitee.com/chuanjiao10/kasini3000/wikis/安装linux版卡死�
 ## NOTE:
 
 all command manual in this file [/docs/kasini3000_manual.xlsx]
-
-set set Language to english [set_Language_english.ps1]
 
 
 ## 1 krun.ps1
@@ -229,7 +234,7 @@ baoj中英文声音报警.ps1 '报告司令，卡死你3000，工作正常！hap
 
 * Change Windows Terminal Background Image. Support gif animation.
 
- ![卡死你3000](效果图.jpg)
+ ![效果图](效果图.jpg)
 
 You can store the memory map in the relevant directory yourself!
 
