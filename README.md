@@ -182,6 +182,12 @@ linux master computer supports these cpu architectures: x64, arm.
 
 Linux master restriction: cannot manage win node
 
+### both windows master and linux master
+
+copy [nodelist.csv] between windows master and linux master
+
+copy folder [c:\ProgramData\kasini3000\cmdb\d当前库] between [/etc/kasini3000/cmdb/d当前库] for Backstage job.
+
 ## script both on win node and linux node：
 
 jc检测【win-linux进程命令行中】关键字的并发数z3.ps1 # Returns the number of command line keywords, or pid array
@@ -300,6 +306,7 @@ This is useful for penetrating bastion machines and managing hardware from a spe
 ## call from jenkins,zabbix easy.
 
 Q: Why is kasini3000 number one in the world?
+
 A:
 
 * Control the invincible hand of the windows node.
@@ -342,7 +349,7 @@ https://gitee.com/chuanjiao10/kasini3000/wikis/安装win版卡死你3000被控�
 
 
 
-## one key install powershell agent
+## one key install powershell agent for linux node. One-click install powershell agent for linux node.
 
 https://gitee.com/chuanjiao10/kasini3000_agent_linux
 
