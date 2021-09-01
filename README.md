@@ -49,9 +49,20 @@ Set Language to english [set_Language_english.ps1]
 
 # download:
 
-git clone https://gitee.com/chuanjiao10/kasini3000.git
+win：
+```
+Remove-Item -LiteralPath 'c:\ProgramData\kasini3000' -Recurse -Force -Confirm:$false
+cd  'c:\ProgramData\'
+git.exe clone git@gitee.com:chuanjiao10/kasini3000.git
+```
 
+linux:
+```
+rm -rf /etc/kasini3000
+export LANG=zh_CN.UTF-8
+cd /etc
 git clone git@gitee.com:chuanjiao10/kasini3000.git
+```
 
 ----
 
