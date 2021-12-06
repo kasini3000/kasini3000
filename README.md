@@ -66,6 +66,15 @@ git clone git@gitee.com:chuanjiao10/kasini3000.git
 
 ----
 
+# data moved from 3.1 alpha 1 :
+
+win： from  【c:\ProgramData\kasini3000】  to  【~\Documents\kasini3000】
+linux： from 【/etc/kasini3000】  to 【/root/kasini3000】
+
+only move data
+
+----
+
 # Feedback (Support Chinese and English):
 
 ### Technical support ---> Tencent qq group, chargeable. Please provide detailed questions, source code, and screenshots. Thank you.
@@ -113,9 +122,9 @@ https://dldir1.qq.com/qqfile/QQIntl/QQi_PC/QQIntl2.11.exe
 
 copy [this project/docs/examples/nodelist.csv]
 
-to win: c:\ProgramData\kasini3000\nodelist.csv
+to win: c:\Users\【your_name】\Documents\kasini3000\nodelist.csv
 
-to linux: /etc/kasini3000/nodelist.csv
+to linux: /root/kasini3000/nodelist.csv
 
 for linux node:
 
@@ -155,7 +164,7 @@ cdg group1
 k-commit-rs.ps1 -file d:\script_onmaster.ps1 -allparameter $master_local_object_1,$master_local_object_2
 ```
 
-## 5 Timed tasks. Supports triggers that cycle every 65 minutes.
+## 5 Timed tasks. Supports triggers that cycle every 67 minutes.
 
 Can be set based on multi-threading or multi-process
 
@@ -197,7 +206,7 @@ Linux master restriction: cannot manage win node
 
 copy [nodelist.csv] between windows master and linux master
 
-copy folder [c:\ProgramData\kasini3000\cmdb\d当前库] between [/etc/kasini3000/cmdb/d当前库] for Backstage job.
+copy folder [c:\Users\【your_name】\Documents\kasini3000\cmdb\] between [/root/kasini3000/cmdb/] for Backstage job.
 
 ## script both on win node and linux node：
 
@@ -216,7 +225,7 @@ hqpm根据端口_获取进程pid_win_linux通用.ps1 # get pid by open port
 * Win node machine supports these versions(32-bit os is supported):
 win8.1, win10, win2012r2, win2016, win1019, win7 (need to install ps5.1), win2008r2 (need to install ps5.1)
 
-* Automatic/Manual Change the password for ALL win node machines in batches.
+* Automatic/Manual Change 16-bit random number password for ALL win nodes in batches,then write new pwd to [nodelist.csv] on master pc.
 
 That is [Regularly automatically update the password of the node machine].
 
@@ -230,7 +239,9 @@ Linux node computers support these distributions(32-bit os is supported):
 
 centos7, centos8, ubuntu1404, ubuntu1604, ubuntu1804, ubuntu2004, debian8, debian9, debian10, alpine3.8---3.11, Raspberry Pi linux, Raspberry Pi win10-iot. **Centos6 is not supported**
 
-Use dual ssh keys to manage Linux controlled computers; automatically/manually update ssh pub keys to controlled computers in batches.
+Use dual ssh-key-file to manage Linux node computers.
+You can alternately change ssh-key-file for linux root. (equivalent to two passwords for the root account)
+automatically update ssh pub keys on node when run command.
 
 bkj_install_linuxpackage.ps1 encapsulates yum and apt-get and apk add. Install [same name] software packages across Linux distributions:
 ```
@@ -415,7 +426,7 @@ https://gitee.com/chuanjiao10/kasini3000/wikis/news?sort_id=1740996
 
 ------
 
-# License
+# License is customize
 
 licenses\LICENSE.TXT
 
