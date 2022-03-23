@@ -73,6 +73,14 @@ linux： from 【/etc/kasini3000】  to 【/root/kasini3000】
 
 only move data
 
+------
+
+# NEWS
+
+Version history and release note:
+
+https://gitee.com/chuanjiao10/kasini3000/wikis/news?sort_id=1740996
+
 ----
 
 # Feedback (Support Chinese and English):
@@ -418,11 +426,7 @@ Increase the English version of the manual.
 
 * Added support for asynchronous callback tasks.
 
-------
 
-# Version history and release note:
-
-https://gitee.com/chuanjiao10/kasini3000/wikis/news?sort_id=1740996
 
 ------
 
