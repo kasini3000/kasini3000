@@ -53,7 +53,8 @@ win：
 ```
 Remove-Item -LiteralPath 'c:\ProgramData\kasini3000' -Recurse -Force -Confirm:$false
 cd  'c:\ProgramData\'
-git.exe clone git@gitee.com:chuanjiao10/kasini3000.git
+git.exe clone https://gitee.com/chuanjiao10/kasini3000.git
+#or git.exe clone git@gitee.com:chuanjiao10/kasini3000.git
 ```
 
 linux:
@@ -61,7 +62,8 @@ linux:
 rm -rf /etc/kasini3000
 export LANG=zh_CN.UTF-8
 cd /etc
-git clone git@gitee.com:chuanjiao10/kasini3000.git
+git clone https://gitee.com/chuanjiao10/kasini3000.git
+#or git clone git@gitee.com:chuanjiao10/kasini3000.git
 ```
 
 ----
@@ -204,7 +206,7 @@ win8.1, win10, win2012r2, win2016, win1019
 
 ### linux master (32-bit os is not supported):
 
-centos7, centos8, ubuntu1404 (but not recommended), ubuntu1604, ubuntu1804, ubuntu2004,debian8 (but not recommended), debian9, debian10, alpine3.8--- 3.11. **Centos6 is not supported**
+centos7, centos8, ubuntu1804, ubuntu2004, ubuntu2204, debian10, debian11, alpine3.8--- 3.11. **Centos6 is not supported**
 
 linux master computer supports these cpu architectures: x64, arm.
 
@@ -245,7 +247,7 @@ That is [Regularly automatically update the password of the node machine].
 
 Linux node computers support these distributions(32-bit os is supported):
 
-centos7, centos8, ubuntu1404, ubuntu1604, ubuntu1804, ubuntu2004, debian8, debian9, debian10, alpine3.8---3.11, Raspberry Pi linux, Raspberry Pi win10-iot. **Centos6 is not supported**
+centos7, centos8, ubuntu1604, ubuntu1804, ubuntu2004, ubuntu2204, debian9, debian10, debian11, alpine3.8---3.11, Raspberry Pi linux, Raspberry Pi win10-iot. **Centos6 is not supported**
 
 Use dual ssh-key-file to manage Linux node computers.
 You can alternately change ssh-key-file for linux root. (equivalent to two passwords for the root account)
