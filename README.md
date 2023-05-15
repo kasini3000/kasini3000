@@ -8,9 +8,17 @@ Cross-platform means that the master computer can be win or linux.
 
 The master connected to the linux node uses the ssh protocol. The master connected to the win node uses the winrm protocol.
 
-Master Control node based on [open source + free + cross-platform] powershell language.
+Master Control node based on [open source + free + cross-platform] powershell language.Instead of being based on YAML like Ansible.
 
 The master computer uses the "push" script, push script blocks, and push and pull files to node.
+You can transfer PS1 script files, code blocks, and object level variables between the master and the node.
+loading DLL files by .Net language.
+
+There are no agent on the Linux node, so there are no security issues. After open-sshd authentication, sshd will execute powershell. This is similar to ansible.
+
+For the Linux version master, you can use both Kasini3000 and Ansible. You can use powershell object variables to help store ansible return values.
+
+Some PS1 scripts can be used independently. This means that some features do not require powershell installation on Linux. These scripts are used to manage vmware esxi, switches, unix, terminals, IoT, and other SSH port node. It also supports bulk telnet.
 
 Bash can be invoked through powershell,
 
@@ -26,6 +34,8 @@ Any old linux script can be executed from the master to the node by [the source 
 
 
 ----
+
+ ![架构](架构.png)
 
 Project name: "kaiiit's Hotel" (tentative name)
 
@@ -49,7 +59,7 @@ Set Language to english [set_Language_english.ps1]
 
 # download:
 
-win：
+win master：
 ```
 Remove-Item -LiteralPath 'c:\ProgramData\kasini3000' -Recurse -Force -Confirm:$false
 cd  'c:\ProgramData\'
@@ -57,7 +67,7 @@ git.exe clone https://gitee.com/chuanjiao10/kasini3000.git
 #or git.exe clone git@gitee.com:chuanjiao10/kasini3000.git
 ```
 
-linux:
+linux master:
 ```
 rm -rf /etc/kasini3000
 export LANG=zh_CN.UTF-8
@@ -202,7 +212,7 @@ kcf -path /tmp2 -Destination d:\123 -Recurse #copy files from node to master.
 
 ### windows master (32-bit os is not supported):
 
-win8.1, win10, win2012r2, win2016, win1019
+win8.1, win10, win11, win2012r2, win2016, win2019, win2022
 
 ### linux master (32-bit os is not supported):
 
@@ -385,7 +395,9 @@ https://gitee.com/chuanjiao10/kasini3000/wikis/安装win版卡死你3000被控�
 
 https://gitee.com/chuanjiao10/kasini3000_agent_linux
 
+## tech:
 
+https://www.cnblogs.com/piapia/p/16534765.html
 
 ## Q&A
 
